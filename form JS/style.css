@@ -1,0 +1,27 @@
+*{
+    background: #9c9999;
+}
+form{
+    margin-top: 100px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 30px;
+    margin-left:49vw;
+}
+
+.focus{
+    background: #fff;
+}
+
+.redborder{
+    border: 2px solid red;
+}
+
+.blackborder{
+    border: 1px solid green;
+}

@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" name="Basic" id="Form">
+        <table>
+            <tr>
+                <td class="name" id="name">Name : </td>
+                <td><input type="text" class="nameInp" id="nameInp" placeholder="enter your name"></td>
+                <td><h5 style="display: none;" id="nameTxt">Plz Enter Name</h5></td>
+                <!-- <h5 style="display: none;">Plz Enter Name</h5> -->
+            </tr>
+            <tr>
+                <td class="email" id="email">Email : </td>
+                <td><input type="email" class="emailInp" placeholder="enter your email" id="emailInp"></td>
+                <td><h5 style="display: none;" id="emailTxt">Plz Enter Email</h5></td>
+                <!-- <h5 style="display: none;">Plz Enter Email</h5> -->
+            </tr>
+            <tr>
+                <td class="password" id="password">Password : </td>
+                <td><input type="password" class="passwordInp" placeholder="enter password" id="passwordInp"></td>
+                <td><h5 style="display: none;" id="passwordTxt">Plz Enter Password</h5></td>
+                <!-- <h5 style="display: none;">Plz Enter Password</h5> -->
+            </tr>
+        </table>
+        <button onclick="FormButton()">Submit</button>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
